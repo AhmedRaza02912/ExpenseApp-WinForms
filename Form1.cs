@@ -19,7 +19,7 @@ namespace ExpenseApp
             InitializeComponent();
         }
 
-        private string connectionString = "server=localhost; database=ExpenseApp; user=root; password=ahmed.austin;";
+        private string connectionString = "server=localhost; database=*yourdatabase*; user=xyz; password=*yourpassword*;";
 
 
 
@@ -109,10 +109,10 @@ namespace ExpenseApp
             }
         }
 
-        private void cmbYear_SelectedIndexChanged(object sender, EventArgs e)
-        {
+     //   private void cmbYear_SelectedIndexChanged(object sender, EventArgs e)
+     //   {
 
-        }
+     //   }
     }
 }
     
